@@ -2,85 +2,104 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Lasles VPN</title>
-        <link href="style.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+        <link href="/css/style.css" rel="stylesheet">
         <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
     </head>
     <body>
-        <header class="header">       
-                <div class="logo">
-                    <img alt="Logo" src="images/Logo.png">
-                </div>
+        <header class="header">    
+            <div class="wrapper"> 
+                <div class="header-wrapper">
+                    <div class="logo">
+                        <a href="/" class="header-logo-link">
+                            <img alt="Logo" src="images/Logo.png">
+                        </a>
+                    </div>
                     <ul class="nav">
-                        <li class="nav-item">
-                            <a data-link="about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-link="features">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-link="pricing">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-link="testimonials">Testimonials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-link="help">Help</a>
-                        </li>
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Help</a>
+                            </li>
+                        </ul>
                     </ul>
                     <div class="sign">
                         <button class="log"><b>Sign In</b></button>
                         <button class="button"><b>Sign In</b></button>
-                    </div>    
+                    </div>   
+                </div>    
+            </div>   
         </header>
         <section class="main-content">
-            <div class="container">
-                <div class="main-info">
-                    <h1 class="main-title">Want anything to be easy with LaslesVPN.</h1>
-                    <p class="main-text common-text">
-                        Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.
-                    </p>
-                    <div class="main-action">
-                        <button class="main-button">Get Started</button>
+            <div class="intro">
+                <div class="wrapper">
+                    <div class="intro-wrapper">
+                    <div class="main-info">
+                        <h1 class="main-title">Want anything to be easy with <span id="bold">LaslesVPN.</span></h1>
+                        <p class="main-text common-text">
+                            Provide a network for all your needs with ease and fun using <span id="boold">LaslesVPN</span> discover interesting features from us.
+                        </p>
+                        <div class="main-action">
+                            <button class="main-button">Get Started</button>
+                        </div>
                     </div>
+                    <img alt="1st image" class="first-image" src="images/Illustration 1.png">
                 </div>
-                <img alt="1st image" class="first-image" src="images/Illustration 1.png">
             </div>
+            </div>  
         </section>
-        <section class="info" id="info">      
+
+        <section class="info">  
+            <div class="wrapper"> 
                     <div class="info-item">
                         <img alt="users" class="info-item-image" src="images/User.png">
                         <div class="info-info">
                             <div class="info-item-number">90+</div>
                             <div class="info-item-text">Users</div>
                         </div>
+                    
                     </div>
                     <div class="info-item">
                         <img alt="locations" class="info-item-image" src="images/location.png">
                         <div class="info-info">
                             <div class="info-item-number">30+</div>
                             <div class="info-item-text">Locations</div>
+                        </div>
                     </div>
-                    </div>
+            
                     <div class="info-item">
                         <img alt="servers" class="info-item-image" src="images/Server.png">
                         <div class="info-info">
                             <div class="info-item-number">50+</div>
                             <div class="info-item-text">Servers</div>
-                    </div>
-                    </div>    
+                        </div>
+                    </div> 
+            </div>    
         </section>
+
         <section class="sub-content">
-            <div class="container">
+            <div class="wrapper">
+                <div class="sub-content-wrapper">
             <div class="sub-content img">
                 <img alt="2nd image" class="second-image" src="images/Illustration 2.png">
             </div>
                 <div class="sub-info">
-                    <h1 class="sub-title common-title">We Provide Many Features You Can Use</h1>
+                    <h2 class="sub-title common-title">We Provide Many Features You Can Use</h2>
                     <p class="sub-text common-text">
                         You can explore the features that we provide with fun and have their own functions each feature.
                     </p>
@@ -102,9 +121,10 @@
                     </p>
                 </div>
             </div>
+        </div>
         </section>
         <section class="plans" id="plans">
-            <div class="container">
+            <div class="wrapper">
                 <div class="plan-title common-title">Choose Your Plan</div>
                 <p class="plan-text common-text">Let's choose the package that is best for you and explore it happily and cheerfully.</p>
                 <div class="plans-types">
@@ -113,24 +133,26 @@
                             <img src="images/Free.png" alt="free">
                         </div>
                         <div class="plans-type-title">Free Plan</div>
+                        <div class="plans-type-info-box">
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Unlimited Bandwitch
                         </p>
-                        <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                        <p class="plans-type-info"> 
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">                        
                             Encrypted Connection
                         </p>
-                        <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                        <p class="plans-type-info">   
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">                    
                             No Traffic Logs
                         </p>
-                        <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                        <p class="plans-type-info">   
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">                     
                             Works on All Devices
                         </p>
+                        </div>
                         <div class="plans-type-extra">
-                            <div class="plans-type-price" data-base-price="0">Free</div>
+                            <div class="plans-type-price">Free</div>
                             <button class="button">
                                 <span>Select</span>
                             </button>                     
@@ -141,28 +163,30 @@
                             <img src="images/Standard.png" alt="standard">
                         </div>
                         <div class="plans-type-title">Standard Plan</div>
+                        <div class="plans-type-info-box">
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Unlimited Bandwitch
                         </p>
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Encrypted Connection
                         </p>
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Yes Traffic Logs
                         </p>
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Works on All Devices
                         </p>
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Connect Anyware
                         </p>
+                        </div>
                         <div class="plans-type-extra">
-                            <div class="plans-type-price" data-base-price="9">$9 / mo</div>
+                            <div class="plans-type-price">$9 / mo</div>
                             <button class="button">
                                 <span>Select</span>
                             </button>                     
@@ -173,32 +197,34 @@
                             <img src="images/Premium.png" alt="premium">
                         </div>
                         <div class="plans-type-title">Premium Plan</div>
+                        <div class="plans-type-info-box">
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Unlimited Bandwitch
                         </p>
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Encrypted Connection
                         </p>
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Yes Traffic Logs
                         </p>
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Works on All Devices
                         </p>
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Connect Anyware
                         </p>
                         <p class="plans-type-info">
-                            <img alt="icon" class="plans-type-icon" src="images/Group 1120.png">
+                            <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
                             Get New Features
                         </p>
+                    </div>
                         <div class="plans-type-extra">
-                            <div class="plans-type-price" data-base-price="12">$12 / mo</div>
+                            <div class="plans-type-price">$12 / mo</div>
                             <button class="button">
                                 <span>Select</span>
                             </button>                     
@@ -207,20 +233,22 @@
                 </div>
             </div>
         </section>
+
         <section class="global-content">
-            <div class="container">
+            <div class="wrapper">
                 <div class="global-info">
-                    <h1 class="global-title common-title">Huge Global Network of Fast VPN</h1>
+                    <h2 class="global-title common-title">Huge Global Network of Fast VPN</h>
                     <p class="global-text common-text">
                         See LaslesVPN everywhere to make it easier for you when you move locations.
                     </p>
                 </div>
                 <img alt="Global" class="global-image" src="images/Huge Global.png">
+
                 <img alt="Sponsored" class="sponsors-image" src="images/Sponsored.png">
             </div>
         </section>
         <section class="reviews">
-            <div class="container">
+            <div class="wrapper">
                 <div class="reviews-title common-title">
                     <h2>Trusted by Thousands of Happy Customer</h2>
                 </div>
@@ -299,9 +327,9 @@
               </section>
         </section>
         <section class="subscribe">
-            <div class="container">
+            <div class="wrapper">
             <div class="content">
-                <h1>Subscribe Now for Get Special Features!</h1>
+                <h2 class="content-title">Subscribe Now for Get Special Features!</h2>
                 <p class="common-text">Let's subscribe with us and find the fun.</p>
             </div>
             <button class="main-button">Subscribe Now</button>
@@ -309,7 +337,7 @@
         </section>
 
 		<footer class="footer">
-			<div class="container">
+			<div class="wrapper">
 				<div class="row">
 					<div class="row-1">
 					    <img alt="Logo" src="images/Logo.png">
@@ -328,7 +356,7 @@
                
 					<div class="row-2">
 						<div class="product">
-							<h2>Product</h2>
+							<h2 class="last-title">Product</h2>
 							<ul class="product-items common-text">
 								<li>Download </li>
 								<li>Pricing</li>
@@ -343,7 +371,7 @@
 
 					<div class="row-3">
 						<div class="engage">
-							<h2>Engage</h2>
+							<h2 class="last-title">Engage</h2>
 							<ul class="engage-items common-text">
 								<li>LaslesVPN ?  </li>
 								<li>FAQ</li>
@@ -357,7 +385,7 @@
 
                     <div class="row-4">
 						<div class="money">
-							<h2>Earn Money</h2>
+							<h2 class="last-title">Earn Money</h2>
 							<ul class="money-items common-text">
 								<li>Affiliate </li>
 								<li>Become Partner</li>
