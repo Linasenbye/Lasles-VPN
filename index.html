@@ -14,6 +14,7 @@
         <header class="header">    
             <div class="wrapper"> 
                 <div class="header-wrapper">
+                    
                     <div class="logo">
                         <a href="/" class="header-logo-link">
                             <img alt="Logo" src="images/Logo.png">
@@ -41,10 +42,14 @@
                     <div class="sign">
                         <button class="log"><b>Sign In</b></button>
                         <button class="button"><b>Sign In</b></button>
-                    </div>   
+                    </div>
+                    <button class="nav-button">
+                        <img width="30" height="20" src="https://img.icons8.com/ios/50/menu--v1.png" alt="menu--v1"/>
+                    </button> 
                 </div>    
             </div>   
         </header>
+
         <section class="main-content">
             <div class="intro">
                 <div class="wrapper">
@@ -66,14 +71,16 @@
 
         <section class="info">  
             <div class="wrapper"> 
+                <div class="info-item-box">
                     <div class="info-item">
                         <img alt="users" class="info-item-image" src="images/User.png">
                         <div class="info-info">
                             <div class="info-item-number">90+</div>
                             <div class="info-item-text">Users</div>
-                        </div>
-                    
+                        </div>    
                     </div>
+                </div>
+                <div class="info-item-box">
                     <div class="info-item">
                         <img alt="locations" class="info-item-image" src="images/location.png">
                         <div class="info-info">
@@ -81,7 +88,8 @@
                             <div class="info-item-text">Locations</div>
                         </div>
                     </div>
-            
+                </div>
+                <div class="info-item-box">
                     <div class="info-item">
                         <img alt="servers" class="info-item-image" src="images/Server.png">
                         <div class="info-info">
@@ -89,6 +97,7 @@
                             <div class="info-item-text">Servers</div>
                         </div>
                     </div> 
+                </div>
             </div>    
         </section>
 
@@ -123,6 +132,7 @@
             </div>
         </div>
         </section>
+
         <section class="plans" id="plans">
             <div class="wrapper">
                 <div class="plan-title common-title">Choose Your Plan</div>
@@ -132,7 +142,7 @@
                         <div class="plans-type-image">
                             <img src="images/Free.png" alt="free">
                         </div>
-                        <div class="plans-type-title">Free Plan</div>
+                        <div class="plans-type-title" id="boold">Free Plan</div>
                         <div class="plans-type-info-box">
                         <p class="plans-type-info">
                             <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
@@ -152,7 +162,7 @@
                         </p>
                         </div>
                         <div class="plans-type-extra">
-                            <div class="plans-type-price">Free</div>
+                            <div class="plans-type-price"><span id="boold">Free</span></div>
                             <button class="button">
                                 <span>Select</span>
                             </button>                     
@@ -162,7 +172,7 @@
                         <div class="plans-type-image">
                             <img src="images/Standard.png" alt="standard">
                         </div>
-                        <div class="plans-type-title">Standard Plan</div>
+                        <div class="plans-type-title" id="boold">Standard Plan</div>
                         <div class="plans-type-info-box">
                         <p class="plans-type-info">
                             <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
@@ -186,7 +196,7 @@
                         </p>
                         </div>
                         <div class="plans-type-extra">
-                            <div class="plans-type-price">$9 / mo</div>
+                            <div class="plans-type-price"><span id="boold">$9</span> / mo</div>
                             <button class="button">
                                 <span>Select</span>
                             </button>                     
@@ -196,7 +206,7 @@
                         <div class="plans-type-image">
                             <img src="images/Premium.png" alt="premium">
                         </div>
-                        <div class="plans-type-title">Premium Plan</div>
+                        <div class="plans-type-title" id="boold">Premium Plan</div>
                         <div class="plans-type-info-box">
                         <p class="plans-type-info">
                             <img alt="icon" class="plans-type-icon" src="images/jam_check.png">
@@ -224,7 +234,7 @@
                         </p>
                     </div>
                         <div class="plans-type-extra">
-                            <div class="plans-type-price">$12 / mo</div>
+                            <div class="plans-type-price"><span id="boold">$12</span> / mo</div>
                             <button class="button">
                                 <span>Select</span>
                             </button>                     
@@ -237,16 +247,17 @@
         <section class="global-content">
             <div class="wrapper">
                 <div class="global-info">
-                    <h2 class="global-title common-title">Huge Global Network of Fast VPN</h>
+                    <h2 class="global-title common-title">Huge Global Network of Fast VPN</h2>
                     <p class="global-text common-text">
-                        See LaslesVPN everywhere to make it easier for you when you move locations.
+                        See <span id="boold">LaslesVPN</span> everywhere to make it easier for you when you move locations.
                     </p>
                 </div>
                 <img alt="Global" class="global-image" src="images/Huge Global.png">
-
                 <img alt="Sponsored" class="sponsors-image" src="images/Sponsored.png">
             </div>
+
         </section>
+
         <section class="reviews">
             <div class="wrapper">
                 <div class="reviews-title common-title">
@@ -255,11 +266,11 @@
                 <div class="reviews-text common-text">
                     <p>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
                 </div>
-            </div>
-            <div class="reviews-content">
+            
+            <div class="reviews-content swiper">
                 <div class="swiper reviews-slider js-reviews-slider">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide reviews-item">
+                        <div class="reviews-item swiper-slide ">
                             <div class="info">         
                                 <img alt="reviewer" src="images/Ellipse 175.png">   
                                 <div class="text-box">
@@ -271,7 +282,7 @@
                                     <div class="rating">4.5</div>
                                     <img alt="star" src="images/ant-design_star-filled.png">
                             </div>
-                            <p>“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+                            <p class="common-text">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
                         </div>
                         <div class="swiper-slide reviews-item">
                             <div class="info">     
@@ -287,7 +298,7 @@
                                     <img alt="star" src="images/ant-design_star-filled.png">
                                 
                             </div>
-                            <p>“I like it because I like to travel far and still can connect with high speed.”..</p>
+                            <p class="common-text">“I like it because I like to travel far and still can connect with high speed.”..</p>
                         </div>
                         <div class="swiper-slide reviews-item">
                             <div class="info">
@@ -302,30 +313,40 @@
                                     <img alt="star" src="images/ant-design_star-filled.png">
                                 
                             </div>
-                            <p>“This is very unusual for my business that currently requires a virtual private network that has high security.”.</p>
+                            <p class="common-text">“This is very unusual for my business that currently requires a virtual private network that has high security.”.</p>
                         </div>
                         <div class="swiper-slide reviews-item">
-                            <div class="info">     
-                                <img alt="reviewer" src="images/Ellipse 175-2.png">     
+                            <div class="info">
+                                <img alt="reviewer" src="images/Ellipse 175-3.png">
                                 <div class="text-box">
                                     <div class="text-box-main">
-                                   
-                                    <h3 class="name">Yessica Christy</h3>
-                                    <span class="country">Shanxi, China</span>
+                                    <h3 class="name">Kim Young Jou</h3>
+                                    <span class="country">Seoul, South Korea</span>
                                     </div>
                                 </div>
                                     <div class="rating">4.5</div>
                                     <img alt="star" src="images/ant-design_star-filled.png">
                                 
                             </div>
-                            <p>“I like it because I like to travel far and still can connect with high speed.”..</p>
+                            <p class="common-text">“This is very unusual for my business that currently requires a virtual private network that has high security.”.</p>
                         </div>
+                            </div>
                     </div>
                 </div>
+            <div class="swiper-pagination-tools">
                 <div class="swiper-pagination js-reviews-slider-pagination"></div>
+                <div class="arrows">
+                    <div class="arrows-buttons">
+                        <span id="prev">&#8592;</span>
+                    </div>
+                    <div class="arrows-buttons">
+                        <span id="next">&#8594;</span>
+                    </div>
+                </div>
             </div>
-              </section>
+        </div>
         </section>
+       
         <section class="subscribe">
             <div class="wrapper">
             <div class="content">
@@ -334,6 +355,7 @@
             </div>
             <button class="main-button">Subscribe Now</button>
         </div>
+    </div>
         </section>
 
 		<footer class="footer">
@@ -396,23 +418,52 @@
 				</div>
 	
 		</footer>
-		</section>
+
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>
-            const swiper = new Swiper('.js-reviews-slider', {
-                grabCursor: true,
-                spaceBetween: 30,
-                pagination: {
-                    el: '.js-reviews-slider-pagination',
-                    clickable: true
-                },
-                breakpoints: {
-                    767: {
-                        slidesPerView: 3
-                    }
-                }
-            });
+            // const swiper = new Swiper('.js-reviews-slider', {
+            //     grabCursor: true,
+            //     spaceBetween: 30,
+            //     pagination: {
+            //         el: '.js-reviews-slider-pagination',
+            //         clickable: true
+            //     },
+            //     breakpoints: {
+            //     // when window width is >= 320px
+            //     320: {
+            //         slidesPerView: 1,
+            //         spaceBetween: 20
+            //     },
+            //     // when window width is >= 480px
+            //     480: {
+            //         slidesPerView: 2,
+            //         spaceBetween: 30
+            //     },
+            //     // when window width is >= 640px
+            //     640: {
+            //         slidesPerView: 3,
+            //         spaceBetween: 30
+            //     }
+            //     },
+            //     navigation: {
+            //         nextEl: '#next',
+            //         prevEl: '#prev',
+            //     },
+            //     });
+            var swiper = new Swiper(".js-reviews-slider", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".js-reviews-slider-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '#next',
+                prevEl: '#prev',
+        },
+      });
         </script>
     </body>
 </html>
